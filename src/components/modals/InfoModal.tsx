@@ -11,7 +11,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        change to show how close your guess was to the word. 
+        Most words, including non-JRWI related ones, can be guessed, but only JRWI related words will ever be the answer. 
+        Some words may only have a slight relation to JRWI as the wordlist would be very small otherwise.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -67,7 +69,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           check out the code here
         </a>{' '}
-        modified by @mormoniucas/catholicclaus ฅ^•ﻌ•^ฅ
+      modified by @mormoniucas/catholicclaus ฅ^•ﻌ•^ฅ
       </p>
 
 

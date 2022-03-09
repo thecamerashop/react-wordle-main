@@ -12981,5 +12981,7 @@ export const VALID_GUESSES = [
   'tizen',
   'yakko',
   'ander',
-  'romeo'
+  'romeo',
+  'chibo',
+  'vynce'
 ]
