@@ -10,53 +10,52 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word. 
-        Most words, including non-JRWI related ones, can be guessed, but only JRWI related words will ever be the answer. 
-        Some words may only have a slight relation to JRWI as the wordlist would be very small otherwise.
+      for the love of god all i had to do was say yes. ilse! ilse!
+so what will i say? i’ll tell them all, the angels, i got drunk in the snow! and sang, and played pirates! yes.. i’ll tell them. i’m ready now. i’ll be an angel. ten minutes ago you could see the entire horizon. now, only the dusk. the first few stars. so dark… so dark… so dark.
+
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="W"
-          status="correct"
-        />
-        <Cell value="I" />
-        <Cell value="S" />
-        <Cell value="P" />
-        <Cell value="Y" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="C" />
-        <Cell value="L" />
         <Cell
           isRevealing={true}
           isCompleted={true}
           value="A"
-          status="present"
+          status="correct"
         />
         <Cell value="S" />
-        <Cell value="S" />
+        <Cell value="T" />
+        <Cell value="E" />
+        <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter A is in the word but in the wrong spot.
+        The letter A is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="R" />
-        <Cell value="I" />
-        <Cell isRevealing={true} isCompleted={true} value="M" status="absent" />
+        <Cell value="A" />
+        <Cell value="S" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="T"
+          status="present"
+        />
         <Cell value="E" />
+        <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter M is not in the word in any spot.
+        The letter T is in the word but in the wrong spot.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="A" />
+        <Cell value="S" />
+        <Cell value="T" />
+        <Cell isRevealing={true} isCompleted={true} value="E" status="absent" />
+        <Cell value="R" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter E is not in the word in any spot.
       </p>
 
 
