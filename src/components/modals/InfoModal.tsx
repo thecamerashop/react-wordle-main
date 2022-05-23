@@ -10,8 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      for the love of god all i had to do was say yes. ilse! ilse!
-so what will i say? i’ll tell them all, the angels, i got drunk in the snow! and sang, and played pirates! yes.. i’ll tell them. i’m ready now. i’ll be an angel. ten minutes ago you could see the entire horizon. now, only the dusk. the first few stars. so dark… so dark… so dark.
+      Be not afraid. It is only Aster.
 
       </p>
 
