@@ -1,6 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME! 
 
-export const WIN_MESSAGES = ['okay', 'OUGH', 'Wonderful...']
+export const WIN_MESSAGES = ['Aster', 'Aster', 'Aster...']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'BAD TOUCH'
 export const WORD_NOT_FOUND_MESSAGE = 'BAD TOUCH'
@@ -17,11 +17,11 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Statistics'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
-export const NEW_WORD_TEXT = 'New word in'
-export const SHARE_TEXT = 'Share'
-export const TOTAL_TRIES_TEXT = 'Total tries'
-export const SUCCESS_RATE_TEXT = 'Success rate'
-export const CURRENT_STREAK_TEXT = 'Current streak'
-export const BEST_STREAK_TEXT = 'Best streak'
+export const STATISTICS_TITLE = 'Just Aster.'
+export const GUESS_DISTRIBUTION_TEXT = 'Just Aster.'
+export const NEW_WORD_TEXT = 'Just Aster.'
+export const SHARE_TEXT = 'Just Aster.'
+export const TOTAL_TRIES_TEXT = 'Just Aster.'
+export const SUCCESS_RATE_TEXT = 'Just Aster.'
+export const CURRENT_STREAK_TEXT = 'Just Aster.'
+export const BEST_STREAK_TEXT = 'Just Aster.'
