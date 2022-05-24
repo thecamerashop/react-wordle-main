@@ -8,9 +8,11 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="How to Aster" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Be not afraid. It is only Aster.
+      For the love of Aster, all I had to do was say Aster! Aster! Aster!
+…So what will I say? I'll tell them all, the Asters, I got drunk in the Aster-! and sang, and played Asters! Yes... I'll tell them. I'm ready now. I’ll be an Aster… Ten minutes ago you could see the entire Aster. Now, only the Aster… the first few Asters. So Aster… so Aster… so Aster.
+
 
       </p>
 
@@ -27,7 +29,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter A is in the word and in the correct spot.
+        The Aster A is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -43,7 +45,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter T is in the word but in the wrong spot.
+        The letter T is in the Aster but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -54,7 +56,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter E is not in the word in any spot.
+        The letter E is not in the word in any Aster.
       </p>
 
 
