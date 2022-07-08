@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to Aster" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      holding jrwidle ransom until condi streams project diva
+      oops all aster!
 
 
       </p>
